@@ -1,20 +1,22 @@
-.header {
-    padding: 20px 20px;
-    font-family: Lato;
+header {
+  padding: 20px 20px;
+  font-family: Lato;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 16px;
-
     }
+
 .container {
         display: flex;
         align-items: center;
+        padding:20px;
     }
+
 ul {
    list-style-type: none;
    display:flex;
-   margin-left: auto;
+   margin-left: 700px;
 }
 
 li{
@@ -26,4 +28,15 @@ a{
 }
 a:hover{
 	text-decoration: underline;
+}
+h1{
+  //styleName: Heading / H1 ;
+font-family: Red Hat Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 64px;
+letter-spacing: 0.05em;
+text-align: left;
+padding-top:80px;
 }

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
@@ -11,19 +10,19 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
-	<header class="header">
+	<header>
 		<div class="container">
-			<a href="/"><img src="images/Logo.svg"></a>
+			<a href="/"><img src="<?= get_stylesheet_directory_uri() . "/images/Logo.svg" ?>" /></a>
 			<ul>
 				<li><a href="#">Home</a></li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Works</a></li>
 				<li><a href="#">Blog</a></li>
 				<li><a href="#">Contact</a></li>
-				<li><a href="/"><img src="images/Icon_color.svg"></a>
+				<li><a href="/"><img src="<?= get_stylesheet_directory_uri() . "/images/Icon_color.svg" ?>" /></a>
 			</ul>
 		</div>
 		<div>
-			Manifest is a newborn theme. Clean, simple and fast.
+			<h1>Manifest is a newborn theme.<br> Clean, simple and fast.</h1>
 		</div>
 	</header>
