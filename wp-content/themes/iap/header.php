@@ -28,7 +28,7 @@
 				<li><a href="/"><img src="<?= get_stylesheet_directory_uri() . "/images/Icon_color.svg" ?>" /></a>
 			</ul>
 		</div>
-		<div>
+		<div class="container">
 			<h1>Manifest is a newborn theme.<br> Clean, simple and fast.</h1>
 		</div>
 	</header>

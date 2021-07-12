@@ -1,3 +1,12 @@
+.container-fluid{
+	display: inline-flex;
+	padding-right: 60px;
+}
+
+.arrow{
+	display: flex;
+}
+
 h4 {
 font-family: Lato;
 font-size: 19px;
@@ -6,6 +15,7 @@ font-weight: 400;
 line-height: 32px;
 letter-spacing: 0.05em;
 text-align: left;
+color:#565656;
 }
 
 h3 {
