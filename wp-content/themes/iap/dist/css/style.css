@@ -16,7 +16,11 @@ header {
 ul {
   list-style-type: none;
   display: flex;
-  margin-left: 700px;
+}
+
+.menu {
+  display: flex;
+  margin-left: auto;
 }
 
 li {
@@ -74,8 +78,35 @@ h9 {
   padding-left: 220px;
 }
 
-.works-img {
-  padding-right: 32px;
+.slider {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.slider .slick-list {
+  overflow: visible;
+}
+.slider:not(.slick-initialized) {
+  display: flex;
+}
+
+.slide {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.slide img {
+  width: 100%;
+}
+
+.container-works {
+  max-width: 1152px;
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 h4 {
@@ -106,4 +137,71 @@ h5 {
   line-height: 27px;
   letter-spacing: 0.05em;
   text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }

@@ -1,3 +1,30 @@
-.works-img{
-	padding-right:32px;
+.slider {
+   margin-left: -15px;
+   margin-right: -15px;
+   .slick-list {
+      overflow: visible;
+   }
+   &:not(.slick-initialized) {
+      display: flex;
+   }
+}
+
+.slide {
+   padding-left: 15px;
+   padding-right: 15px;
+   img {
+      width: 100%;
+   }
+}
+
+.container-works {
+   max-width: 1152px;
+   width: 100%;
+   padding-left: 16px;
+   padding-right: 16px;
+   margin: 0 auto;
+}
+
+body {
+   overflow-x: hidden;
 }

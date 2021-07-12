@@ -16,12 +16,17 @@ header {
 ul {
    list-style-type: none;
    display:flex;
-   margin-left: 700px;
+}
+
+.menu{
+  display:flex;
+  margin-left: auto;
 }
 
 li{
 	padding-right: 52px
 }
+
 a{
 	text-decoration: none;
 	color:#000;

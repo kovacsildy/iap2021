@@ -12,13 +12,19 @@
 
 	<header>
 		<div class="container">
-			<a href="/"><img src="<?= get_stylesheet_directory_uri() . "/images/Logo.svg" ?>" /></a>
+			<?php if ( has_custom_logo() ) : ?>
+				<div class="site-logo"><?php the_custom_logo(); ?></div>
+			<?php endif; ?>
+			<?php if (has_nav_menu('menu')): ?>
+				<nav class="menu">
+					<?php
+					wp_nav_menu([
+						'theme_location' => 'menu'
+					]);
+					?>
+				</nav>
+			<?php endif ?>
 			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Works</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Contact</a></li>
 				<li><a href="/"><img src="<?= get_stylesheet_directory_uri() . "/images/Icon_color.svg" ?>" /></a>
 			</ul>
 		</div>
